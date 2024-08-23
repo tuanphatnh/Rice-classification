@@ -1,0 +1,12 @@
+.wrap {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+
+    .icon {
+        margin: -50px 0;
+        height: 200px;
+    }
+}

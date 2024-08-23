@@ -1,0 +1,47 @@
+.box {
+    display: flex;
+    flex-direction: column;
+
+    .upload {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+        h1 {
+            font-size: 18px;
+            color: #000;
+            font-weight: 600;
+        }
+        span {
+            font-size: 16px;
+            color: #333;
+        }
+    }
+
+    .heading-1 {
+        margin-top: 20px;
+        font-size: 18px;
+        color: #000;
+        font-weight: 600;
+    }
+
+    .heading-2 {
+        width: 110px;
+        font-size: 16px;
+        margin-right: 20px;
+        color: #000;
+    }
+
+    .content {
+        margin: 0 50px;
+        padding: 20px;
+        background-color: #effaf7;
+        border-radius: 10px;
+    }
+
+    .item {
+        display: flex;
+        align-items: center;
+        margin: 20px 10px;
+    }
+}

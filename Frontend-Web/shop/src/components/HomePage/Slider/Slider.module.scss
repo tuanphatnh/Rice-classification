@@ -1,0 +1,55 @@
+.wrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .list {
+        width: 150px;
+        position: absolute;
+        bottom: 40px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .item {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #ccc;
+    }
+    .item.active {
+        background-color:#24b31a;
+    }  
+}
+
+.wrap .list .item {
+    cursor: pointer;
+}
+
+.wrap {
+    position: relative;
+    overflow: hidden;
+}
+
+.wrap .img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.wrap .img.active {
+    opacity: 1;
+}

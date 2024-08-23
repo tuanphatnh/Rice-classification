@@ -1,0 +1,43 @@
+.wrap {
+    .user {
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+
+        .heading {
+            font-size: 16px;
+            color: #000;
+            font-weight: 600;
+            padding: 0 10px;
+
+            &:hover {
+                cursor: pointer;
+                color: #f2be22;
+            }
+        }
+    }
+
+    .infor {
+        margin-left: 10px;
+        h1 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #000;
+        }
+        .rate {
+            font-size: 14px;
+        }
+    }
+    .coin {
+        margin-left: 20px;
+        padding: 6px 12px;
+        border-radius: 10px;
+        border: 2px solid #f2be22;
+        span {
+            font-size: 16px;
+            color: #f2be22;
+            float: right;
+        }
+    }
+}
